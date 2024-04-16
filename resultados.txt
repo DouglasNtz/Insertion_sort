@@ -1,0 +1,20 @@
+Function: my_insertion_sort
+Número de experimentos: 100
+Tamanho da lista de números: 5000
+Tempo total: 41.586918ms
+
+Function: insertion_sort
+Número de experimentos: 100
+Tamanho da lista de números: 5000
+Tempo total: 305.301057ms
+
+Function: my_swap_sort
+Número de experimentos: 100
+Tamanho da lista de números: 5000
+Tempo total: 118.31889ms
+
+Function: swap_sort
+Número de experimentos: 100
+Tamanho da lista de números: 5000
+Tempo total: 620.99166ms
+
