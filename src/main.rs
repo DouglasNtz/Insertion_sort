@@ -69,12 +69,10 @@ fn main() {
 
     for _exp in 0..numero_experimentos {
 
-        let mut v0 = Vec::with_capacity(tamanho_lista);
+        let mut v = Vec::with_capacity(tamanho_lista);
         for _i in 0..tamanho_lista {
-            v0.push(rand::random::<i32>());
+            v.push(rand::random::<i32>());
         }
-
-        let mut v = v0.clone();
 
         match func_name {
             "my_insertion_sort" => {
@@ -88,7 +86,6 @@ fn main() {
                         func(&mut v)
                     }
                 };
-                //my_insertion_sort(&mut v);
                 duration = start_time.elapsed();
             },
             "insertion_sort" => {
@@ -102,7 +99,6 @@ fn main() {
                         func(&mut v)
                     }
                 };
-                //insertion_sort(&mut v);
                 duration = start_time.elapsed();
             },
             "my_swap_sort" => {
@@ -116,7 +112,6 @@ fn main() {
                         func(&mut v)
                     }
                 };
-                //my_swap_sort(&mut v);
                 duration = start_time.elapsed();
             },
             "swap_sort" => {
@@ -130,7 +125,6 @@ fn main() {
                         func(&mut v)
                     }
                 };
-                //swap_sort(&mut v);
                 duration = start_time.elapsed();
             },
             _ => {

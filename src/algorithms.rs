@@ -116,3 +116,18 @@ fn find_swap_position<T: PartialOrd + Copy>(mut i: usize, mut j: usize, k: usize
         };
     }
 }
+
+fn selection_sort<T: PartialOrd + Copy>(v: &mut Vec<T>) {
+
+    for i in 0 .. v.len() - 1 {
+
+        let mut min = i;
+
+        for j in (i + 1) ..= v.len() - 1 {
+            if v[j] < v[min] {
+                min = j;
+            }
+        }
+        v.swap(i, min)
+    }
+}
