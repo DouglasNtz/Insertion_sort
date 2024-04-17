@@ -41,7 +41,7 @@ Exemplos:
 
 //--------------------------
 
-  cargo run --release 100 5000 my_insertion_sort Itarations >> resultados.txt
+  cargo run --release 100 5000 my_insertion_sort Iterations >> resultados.txt
 
   Escreve o seguinte output no arquivo:
 
