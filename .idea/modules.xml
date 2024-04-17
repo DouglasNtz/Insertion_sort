@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/my_insertion_sort.iml" filepath="$PROJECT_DIR$/.idea/my_insertion_sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Insertion_sort.iml" filepath="$PROJECT_DIR$/.idea/Insertion_sort.iml" />
     </modules>
   </component>
 </project>
