@@ -151,9 +151,7 @@ Número de experimentos: {numero_experimentos}
 Tamanho da lista de números: {tamanho_lista}
 Tempo total: {:?}
 "###, times.iter().sum::<Duration>());
-    }
-
-    if kind_algorithm == "Iterations" {
+    } else if kind_algorithm == "Iterations" {
         println!(r###"Function: {func_name}
 Número de experimentos: {numero_experimentos}
 Tamanho da lista de números: {tamanho_lista}
