@@ -23,25 +23,37 @@ Em tipo_output devemos digitar uma das seguintes opções:
 - Times: mostra o tempo total de todas as execuções (a soma dos tempos de cada execução).
 - Iterations: mostra a média do número simplificado de iterações por execução, no sentido em que cada looping registra uma iteração.
 
-Exemplo:
+Exemplos:
 
   cargo run --release 100 5000 my_insertion_sort Times >> resultados.txt
 
   Escreve o seguinte output no arquivo:
 
+//---------------------------
+
   Function: my_insertion_sort
+
   Número de experimentos: 100
+
   Tamanho da lista de números: 5000
+
   Tempo total: 41.191591ms
+
+//--------------------------
 
   cargo run --release 100 5000 my_insertion_sort Itarations >> resultados.txt
 
   Escreve o seguinte output no arquivo:
 
+//--------------------------
+
   Function: my_insertion_sort
+
   Número de experimentos: 100
+
   Tamanho da lista de números: 5000
-  Itarações por execução: 52935.43
+  
+  Iterações por execução: 52935.43
 
 
 
