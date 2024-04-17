@@ -1,8 +1,8 @@
 use std::io::Take;
 use rand;
 use std::time::{Duration, Instant};
-use my_insertion_sort::{my_insertion_sort, my_swap_sort, insertion_sort, swap_sort};
-use my_insertion_sort::{my_insertion_sort_it, insertion_sort_it, swap_sort_it, my_swap_sort_it};
+use lib::{my_insertion_sort, my_swap_sort, insertion_sort, swap_sort};
+use lib::{my_insertion_sort_it, insertion_sort_it, swap_sort_it, my_swap_sort_it};
 
 enum My_insertion_sort<T> {
     Times(for<'a> fn(&'a mut Vec<T>)),
