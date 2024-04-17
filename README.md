@@ -1,5 +1,7 @@
 # Insertion_sort
 
+OBS: Ao contrário do clássico insertion sort que é c * n * n, meu insertion sort é c * n * log2(n), se equiparando ao merge sort.
+
 Algoritmos de ordenação de vetor de números escritos em Rust
 
 Para executar um dos 4 algoritmos, basta digitar o seguinte comando:
@@ -54,7 +56,5 @@ Exemplos:
   Tamanho da lista de números: 5000
   
   Iterações por execução: 52935.43
-
-
 
   
