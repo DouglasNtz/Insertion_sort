@@ -1,4 +1,3 @@
-use std::io::Take;
 use rand;
 use std::time::{Duration, Instant};
 use lib::{my_insertion_sort, my_swap_sort, insertion_sort, swap_sort};
